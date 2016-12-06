@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+.post-project {
+    margin-bottom: 60px;
+}
+
+.post-project h2 {
+    color: #333;
+    font-size: 30px;
+    margin: 17px 0 39px;
+    font-weight: bold;
+}
+
+.post-project .btn {
+    padding: 17px 29px;
+    background-color: #eee;
+    text-overflow: ellipsis;
+    width: 100%;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.info-project {
+    border-left: 3px solid #edac15;
+}
+
+.info-project .content-top {
+    padding: 36px 44px 18px;
+    color: #666;
+    background-color: #f2f2f2;
+}
+
+.info-project .content-top h3 {
+    margin: 0 0 26px;
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.info-project .content-top ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info-project .content-top ul li {
+    position: relative;
+    border-top: 1px solid #ddd;
+    padding: 20px 45px 18px 0;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+.info-project .content-top ul li span {
+    display: block;
+    font-size: 14px;
+    color: #999;
+    font-weight: normal;
+}
+
+.info-project .content-top ul li i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    color: #ccc;
+    font-size: 40px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+}
+
+.info-project .content-bottom {
+    padding: 35px 44px;
+    border: 1px solid #eee;
+    border-left: none;
+}
+
+.info-project .content-bottom dt {
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    padding: 0 0 16px;
+    margin: 0 0 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.info-project .content-bottom dd p {
+    margin: 0 0 16px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.imgages-project a {
+    display: block;
+    margin-bottom: 30px;
+    cursor: zoom-in;
+}
+
+.imgages-project a img { width: 100%; }

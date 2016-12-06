@@ -1,0 +1,112 @@
+
+#map {
+    height: 500px;
+    margin-top: -58px;
+    margin-bottom: 60px;
+}
+
+.staff .fix-img {
+    width: auto;
+    max-width: 100%;
+}
+
+.list-01 {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 60px;
+}
+
+.list-01 li {
+    padding-bottom: 19px;
+    margin-bottom: 19px;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+    position: relative;
+    padding-left: 30px;
+}
+
+.list-01 li:last-child {
+    border-bottom: none;
+}
+
+.list-01 li i {
+    position: absolute;
+    left: 0;
+    top: 3px;
+}
+
+.contact-form {
+    margin-bottom: 30px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    border-radius: 0;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+    color: #666;
+    padding: 18px 20px;
+    font-size: 14px;
+    line-height: 23px;
+    height: auto;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    background-color: #fff;
+    border-color: #ddd;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.contact-form button.btn-warning,
+.contact-form button.btn-warning:active {
+    border-radius: 3px;
+    background: #edac15 linear-gradient(to bottom,#edac15,#ebaa12);
+    border: 2px solid #edac15;
+    padding: 17px 21px;
+    font-weight: bold;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.contact-form button.btn-warning:hover {
+    background: #d89c11;
+    border-color: #d89c11;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.require-field {
+    font-size: 16px;
+    vertical-align: middle;
+    padding-top: 22px;
+}
+
+.calendar h2 {
+    font-size: 30px;
+    color: #333;
+    margin: 0 0 30px;
+    font-weight: bold;
+}
+
+.calendar table {
+    width: 100%;
+    border: 1px solid #eee;
+}
+
+.calendar table td {
+    padding: 0 30px 15px;
+    font-size: 14px;
+}
+
+.calendar table tr:first-child td {
+    padding-top: 24px;
+}
+
+.calendar table tr:last-child td {
+    padding-bottom: 30px;
+}
+
+.calendar table tr.today td {
+    color: #333;
+}
