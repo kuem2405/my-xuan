@@ -408,4 +408,61 @@
         margin: 0 0 8px;
     }
 
+    #slider-project .slick-prev,
+    #slider-project .slick-next {
+        width: calc(50% - 25px);
+        left: 15px;
+        right: auto;
+        top: 0;
+    }
+
+    .list-projects {
+        position: relative;
+        padding-top: 45px;
+    }
+
+    #slider-project .slick-next {
+        left: auto;
+        right: 15px;
+    }
+
+    .slider-testimonials .slick-prev,
+    .slider-testimonials .slick-next {
+        display: none !important;
+    }
+
+    .content-testimonials {
+        padding: 30px;
+        margin-right: 0;
+    }
+
+    .partner {
+        margin-bottom: 20px;
+    }
+
+    .content-slider { font-size: 14px; }
+
+    .content-slider h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .content-slider p .btn {
+        margin-right: 10px;
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+
+    .contact-us {
+        padding: 5px 0;
+    }
+
+    .contact-us li {
+        width: 100%;
+        padding: 5px 0 !important;
+    }
 }

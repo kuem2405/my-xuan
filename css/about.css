@@ -167,3 +167,8 @@
   text-transform: uppercase;
   text-decoration: none;
 }
+
+@media screen and (max-width: 768px){
+  #first-about .content-first-about,
+  .list-staff .staff { margin-bottom: 30px; }
+}

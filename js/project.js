@@ -1,5 +1,7 @@
 $(document).ready(function () {
-    $('#tab-filter a').click(function () {
+    $('#tab-filter li a').click(function () {
+        $('#tab-filter li').removeClass('selected');
+        $(this).parent().addClass('selected');
         $('#tab-filter a').removeClass('active');
         $(this).addClass('active');
         $varfilter = $(this).attr('href');

@@ -506,7 +506,7 @@ a {
 
 #tab-filter {
     margin: 0 0 30px;
-    padding: 0;
+    padding: 0 100px 0 0;
     border-bottom: 1px solid #ddd;
 }
 
@@ -788,6 +788,8 @@ a {
 
     #main-menu button span { vertical-align: middle; }
 
+    #main-menu > ul > li.active::after { display: none; }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -803,5 +805,61 @@ a {
 
     #top-header nav {
         display: inline-block;
+    }
+
+    #tab-filter {
+        position: relative;
+        top: 63px;
+        margin-bottom: 95px;
+        border: 1px solid #ddd;
+        border-top: none;
+    }
+
+    #tab-filter li {
+        margin-left: 0;
+        display: none;
+    }
+
+    #tab-filter li a {
+        padding: 20px 10px;
+    }
+
+    #tab-filter li.selected {
+        position: absolute;
+        top: -63px;
+        width: 100%;
+        display: block;
+    }
+
+    #tab-filter .icon-filter{
+        font-size: 40px;
+        padding: 0 15px;
+        border-radius: 4px;
+        top: -63px;
+        position: absolute;
+        right: 0;
+        background-color: #edac15;
+        color: #fff;
+        z-index: 2000;
+    }
+
+    #copyright .container > div {
+        float: none !important;
+        text-align: center;
+    }
+
+    #projects {
+        margin: -30px 0 30px;
+    }
+
+    #logo {
+        width: 50%;
+        height: 70px;
+        vertical-align: middle;
+    }
+
+    #logo img {
+        width: 100%;
+        max-height: 100%;
     }
 }
