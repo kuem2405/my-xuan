@@ -99,6 +99,11 @@ a {
     display: block;
 }
 
+#top-header nav li a {
+    padding: 0;
+    margin: 0 5px;
+}
+
 #top-header nav li:hover a {
     text-decoration: none;
     color: #8c8c8c;

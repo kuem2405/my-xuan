@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+#service {
+    margin-bottom: 60px;
+}
+
+.show-product-big {
+    margin-bottom: 30px;
+}
+
+.show-product-big .thumbnail-product img { width: 100%; }
+
+#service .menu-tab {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    border: 1xp solid ;
+}

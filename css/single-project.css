@@ -98,3 +98,13 @@
 }
 
 .imgages-project a img { width: 100%; }
+
+@media screen and (max-width: 768px) {
+    .post-project .row {
+        margin-bottom: 15px;
+    }
+
+    .post-project .btn {
+        margin-bottom: 10px;
+    }
+}
