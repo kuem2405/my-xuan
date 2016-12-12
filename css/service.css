@@ -14,5 +14,26 @@
     margin-bottom: 0;
     padding-left: 0;
     list-style: none;
-    border: 1xp solid ;
+}
+
+#service .menu-tab li {
+    border-bottom: 1px solid #eeeeee;
+}
+
+#service .menu-tab li:first-child {
+    border-top: 1px solid #eeeeee;
+}
+
+#service .menu-tab a {
+    display: block;
+    text-decoration: none;
+    padding: 17px 30px;
+    border-right: 1px solid #eee;
+    border-left: 3px solid #ddd;
+}
+
+#service .menu-tab .active a,
+#service .menu-tab a:hover {
+    border-left: 3px solid #edac15;
+    background-color: #f2f2f2;
 }
