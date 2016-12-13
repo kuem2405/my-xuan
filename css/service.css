@@ -37,3 +37,127 @@
     border-left: 3px solid #edac15;
     background-color: #f2f2f2;
 }
+
+.content-sub-service {
+    margin-bottom: 16px;
+}
+
+.content-sub-service h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin: 0 0 8px;
+}
+
+.content-sub-service p {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.tab-content input {
+    display: none;
+}
+
+.tab-content {
+    border: 1px solid #eee;
+}
+
+.tab-content label {
+    position: relative;
+    vertical-align: middle;
+    color: #333;
+    display: block;
+    cursor: pointer;
+    padding: 22px 20px 22px 55px;
+    border-top: 1px solid #eee;
+    margin: 0;
+}
+
+.tab-content label::before {
+    width: 25px;
+    height: 25px;
+    font-family: FontAwesome;
+    content: '\f067';
+    position: absolute;
+    top: calc( 50% - 13px );
+    left: 15px;
+    font-size: 28px;
+    line-height: 1;
+    text-align: center;
+    vertical-align: middle;
+    color: #999;
+}
+
+.tab-content .tab:first-child label {
+    border-top: none;
+}
+
+.tab-content .content {
+    padding: 20px 20px 20px 55px;
+    border-top: 1px solid #eee;
+    display: none;
+}
+
+.tab-content .tab {
+    border-left: 3px solid #eee;
+}
+
+.tab-content .tab:hover {
+    border-left: 3px solid #edac15;
+}
+
+.tab-content .tab input:checked + label {
+    background-color: #f2f2f2;
+}
+
+.tab-content .tab input:checked + label:before {
+    content: '\f068';
+}
+
+.tab-content .tab input:checked ~ .content {
+    display: block;
+}
+
+.content-image-sub-service {
+    margin-bottom: 30px;
+}
+
+.content-image-sub-service a {
+    cursor: zoom-in;
+}
+
+.content-image-sub-service img {
+    width: 100%;
+}
+
+.link-file {
+    position: relative;
+    vertical-align: middle;
+    color: #333;
+    display: block;
+    cursor: pointer;
+    padding: 14px;
+    border: 1px solid #eee;
+    border-left: 3px solid #eee;
+    margin: 0;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.link-file i {
+    color: #999;
+    font-size: 20px;
+}
+
+.link-file:hover {
+    border-left: 3px solid #edac15;
+    background-color: #f2f2f2;
+    text-decoration: none;
+}
+
+@media screen and ( max-width: 768px ) {
+    #service .menu-tab,
+    .tab-content {
+        margin-bottom: 30px;
+    }
+}
